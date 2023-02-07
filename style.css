@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+main h1 {
+  position: absolute;
+  font-size: 5rem;
+  color: white;
+  text-transform: uppercase;
+  top: 50%;
+  right: -30%;
+
+  z-index: 120;
+}
+
+main img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 5;
+}
+#mountain_1 {
+  left: 0;
+  width: 100%;
+
+  bottom: 0;
+  height: auto;
+}
+.text {
+  padding: 2rem;
+  text-align: center;
+  background-color: #9e9e9e;
+  color: black;
+  /* transform: translateX(50px); */
+}
+.text h3 {
+  font-size: 2.5rem;
+}
